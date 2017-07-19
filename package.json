@@ -1,0 +1,22 @@
+{
+  "name": "http-sse",
+  "description": "Create server-sent-events",
+  "repository": "yoshuawuyts/http-sse",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "sse",
+    "node"
+  ],
+  "license": "MIT"
+}
